@@ -93,7 +93,7 @@ Solutions to the above can be found in `solutions`.
 
 Please visit this Colab page to access the detailed content of this tutorial: [https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=ETJeJC-rMzsf](https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn?usp=sharing)
 
-<! --
+<!--
 <a href=""> <img src="https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn?usp=sharing" alt="Open In Colab"/></a>
 -->
 
