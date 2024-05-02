@@ -91,11 +91,11 @@ Solutions to the above can be found in `solutions`.
 
 ## Getting Started
 
-Please visit this Colab page to access the detailed content of this tutorial: https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=ETJeJC-rMzsf
+Please visit this Colab page to access the detailed content of this tutorial: [https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=ETJeJC-rMzsf](https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn?usp=sharing)
 
-<! -- 
-<a href=""> <img src="https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=ETJeJC-rMzsf" alt="Open In Colab"/></a>
--->
+
+<a href=""> <img src="https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn?usp=sharing" alt="Open In Colab"/></a>
+
 
 <!-- An overview of the files and folder in the exemplar.
 Not all files and directories need to be listed, just the important
