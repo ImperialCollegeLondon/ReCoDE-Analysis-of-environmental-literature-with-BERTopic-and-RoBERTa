@@ -40,45 +40,31 @@ Topic modeling has found applications in areas like **information retrieval, exp
 
 ## Learning Outcomes
 
-- Skill 1
-- Skill 2
-- Skill 3
+By the end of this tutorial, students will be able to acquire the following learning outcomes:
 
-<!-- How long should they spend reading and practising using your Code.
-Provide your best estimate -->
+1. Proficiency in Text Data Preprocessing: Participants will gain hands-on experience in preprocessing environmental literature datasets, including cleaning, tokenisation, and normalisation techniques, essential for preparing data for NLP analysis.
 
-| Task       | Time    |
-| ---------- | ------- |
-| Reading    | 3 hours |
-| Practising | 3 hours |
+2. Understanding the principle of embedding-matrix-based NLP techniques: Through the application of BERTopic for topic modelling and RoBERTa for sentiment analysis, students will develop a deep understanding of advanced NLP methods and their practical implementation in dissecting environmental and sustainability texts and beyond.
+
+3. Critical Analysis Skills: Participants will learn to critically analyse and interpret the results of NLP analyses, including identifying dominant themes, sentiment shifts, and trends in environmental literature, fostering a nuanced understanding of environmental discourse.
+
+4. Interpretation and Application: Relying on a real-world example, this project demonstrates how to generate visualisations and reports to present the results of the topic modelling and sentiment analysis, facilitating interpretation and discussion.
 
 ## Requirements
 
-<!--
-If your exemplar requires students to have a background knowledge of something
-especially this is the place to mention that.
-
-List any resources you would recommend to get the students started.
-
-If there is an existing exemplar in the ReCoDE repositories link to that.
--->
+It would help a lot if you went through the following Graduate School courses before going through this exemplar:
+* Introduction to Python
+* Data Exploration and Visualisation
+* Data Processing with Python Pandas
+* Plotting in Python with Matplotlib
+* Binary Classification of Patent Text Using Natural Language Processing (another ReCoDE project)
 
 ### Academic
 
-<!-- List the system requirements and how to obtain them, that can be as simple
-as adding a hyperlink to as detailed as writting step-by-step instructions.
-How detailed the instructions should be will vary on a case-by-case basis.
-
-Here are some examples:
-
-- 50 GB of disk space to hold Dataset X
-- Anaconda
-- Python 3.11 or newer
-- Access to the HPC
-- PETSc v3.16
-- gfortran compiler
-- Paraview
--->
+* Access to Google Colaboratory
+* Basic Math (matrices, averages)
+* Programming skills (python, pandas, numpy, tensorflow)
+* Machine learning theory (at level of intro to machine learning course)
 
 ### System
 
