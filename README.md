@@ -68,6 +68,9 @@ It would help a lot if you went through the following Graduate School courses be
 
 ### System
 
+Windows
+
+
 <!-- Instructions on how the student should start going through the exemplar.
 
 Structure this section as you see fit but try to be clear, concise and accurate
@@ -87,6 +90,11 @@ Solutions to the above can be found in `solutions`.
 -->
 
 ## Getting Started
+
+Please visit this Colab page to access the detailed content of this tutorial:
+
+<a href=""> <img src="https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=ETJeJC-rMzsf" alt="Open In Colab"/></a>
+
 
 <!-- An overview of the files and folder in the exemplar.
 Not all files and directories need to be listed, just the important
