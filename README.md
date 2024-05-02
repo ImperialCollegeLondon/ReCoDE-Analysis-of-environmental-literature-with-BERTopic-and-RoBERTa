@@ -97,6 +97,10 @@ Please visit this Colab page to access the detailed content of this tutorial: [h
 <a href=""> <img src="https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn?usp=sharing" alt="Open In Colab"/></a>
 -->
 
+## Colab Sample code
+- Sample 1:
+<a href="https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=KLSpxHHOBB28"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>
+
 <!-- An overview of the files and folder in the exemplar.
 Not all files and directories need to be listed, just the important
 sections of your project, like the learning material, the code, the tests, etc.
