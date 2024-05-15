@@ -17,9 +17,9 @@ Also, as a STEMM PhD student at Imperial, who is going to step into a new field 
 
 **Furthermore, as a STEMM PhD student at Imperial stepping into a new field such as Sustainability, taking advantage of the NLP tools can significantly enhance the efficiency of literature exploration and review. This skill facilitates a seamless transition into interdisciplinary research, empowering you to navigate diverse datasets and extract valuable insights with greater ease and precision.**
 
-## The Potential of Topic Modeling
+## The Potential of Topic Modelling
 
-Topic modeling is a technique in NLP and machine learning used to discover abstract "topics" that occur in a collection of documents. The key idea is that documents are made up of mixtures of topics, and that each topic is a probability distribution over words.
+Topic modelling is a technique in NLP and machine learning used to discover abstract "topics" that occur in a collection of documents. The key idea is that documents are made up of mixtures of topics, and that each topic is a probability distribution over words.
 
 More specifically, topic modeling algorithms like Latent Dirichlet Allocation (LDA) work by:
 
