@@ -96,7 +96,7 @@ Solutions to the above can be found in `solutions`.
 
 Please visit this Colab page to access the detailed content of this tutorial: https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn?usp=sharing
 
-<a href="https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=KLSpxHHOBB28"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>
+<a href="https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=GWrz9R6rhhbc"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>
 
 <!-- An overview of the files and folder in the exemplar.
 Not all files and directories need to be listed, just the important
