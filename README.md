@@ -53,7 +53,7 @@ By the end of this tutorial, students will be able to acquire the following lear
 ## Requirements
 
 It would help a lot if you went through the following Graduate School courses before going through this exemplar:
-* Introduction to Python
+* [Introduction to Python](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/intro-to-python/)
 * Data Exploration and Visualisation
 * Data Processing with Python Pandas
 * Plotting in Python with Matplotlib
