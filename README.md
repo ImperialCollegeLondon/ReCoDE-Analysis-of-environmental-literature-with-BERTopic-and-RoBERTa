@@ -4,7 +4,7 @@
 
 <!-- Provide a short description to your project -->
 
-## Explosive litearture in Environmental and Sustainability Studies
+## Explosive literature in Environmental and Sustainability Studies
 
 The field of **environmental and sustainability** studies has witnessed an explosive growth in literature over the past few decades, driven by the increasing global awareness and urgency surrounding environmental issues, climate change, and the need for sustainable practices.
 
