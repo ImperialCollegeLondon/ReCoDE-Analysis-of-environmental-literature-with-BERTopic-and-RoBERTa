@@ -1,8 +1,4 @@
-<!-- Your Project title, make it sound catchy! -->
-
 # ReCoDE - Analysis of environmental literature with BERTopic and RoBERTa
-
-<!-- Provide a short description to your project -->
 
 ## Explosive literature in Environmental and Sustainability Studies
 
@@ -56,14 +52,14 @@ It would help a lot if you went through the following Graduate School courses be
 * [Plotting in Python with Matplotlib](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/plotting-in-python-with-matplotlib/)
 * [Binary Classification of Patent Text Using Natural Language Processing (another ReCoDE project)](https://github.com/ImperialCollegeLondon/ReCoDE-AIForPatents)
 
-### Academic
+## Academic
 
 * Access to Google Colaboratory
 * Basic Math (matrices, averages)
 * Programming skills (python, pandas, numpy, tensorflow)
 * Machine learning theory (at level of intro to machine learning course)
 
-### System
+## System
 
 Windows
 
