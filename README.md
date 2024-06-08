@@ -84,6 +84,11 @@ In this step-by-step case study, we will focus on the application of BERTopic, t
 
 By following along, you will gain practical insights into leveraging BERTopic for insightful analysis of scholarly literature from Web of Science.
 
+Some sample visualisation results can be:
+![Example Image](./docs/plots/inter-topic_bert1.png)
+![Example Image](./docs/plots/top_topics_bert_1.png)
+![Example Image](./docs/plots/hier_cluster_bert_1.png)
+![Example Image](./docs/plots/sim_max_bert_1.png)
 
 ### A Step-by-Step Case Study using RoBERTa
 
@@ -146,7 +151,7 @@ in a tree node.
 │       │── Web_of_Science_Search_2001-3000 results.csv
 │       │── Web_of_Science_Search_3001-4000 results.csv
 │       │── Web_of_Science_Search_4001-5000 results.csv
-│   ├── Plots                 <- plots
+│   ├── plots                 <- plots
 │       │── hier_cluster_bert_1.png
 │       │── hier_cluster_roberta_1.png
 │       │── hier_cluster_roberta_2.png
