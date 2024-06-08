@@ -12,9 +12,6 @@ This rapidly expanding body of literature is characterized by its **interdiscipl
 
 So, in summary, the explosive growth of the literature across multiple disciplines, geographic regions, languages, and emerging topics poses significant challenges in terms of effectively organizing, synthesizing, and extracting insights from this vast and rapidly expanding body of knowledge. This is where **Natural Language Processing (NLP)** techniques like **topic modelling** with BERTopic and advanced language models like RoBERTa can play a crucial role. Their ability to process large volumes of text data, identify semantic topics and patterns, cluster related documents, and handle multiple languages can help researchers, policymakers, and stakeholders navigate this extensive literature more effectively.
 
-
-Also, as a STEMM PhD student at Imperial, who is going to step into a new field like Sustainability, it is helpful to learn how to take advantage of the NLP tools to accelerate your literature exploration and review process, and achieve a more smooth interdisciplinary research.
-
 **Furthermore, as a STEMM PhD student at Imperial stepping into a new field such as Sustainability, taking advantage of the NLP tools can significantly enhance the efficiency of literature exploration and review. This skill facilitates a seamless transition into interdisciplinary research, empowering you to navigate diverse datasets and extract valuable insights with greater ease and precision.**
 
 ## The Potential of Topic Modelling
