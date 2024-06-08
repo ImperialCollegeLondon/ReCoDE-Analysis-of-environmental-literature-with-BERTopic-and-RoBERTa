@@ -135,21 +135,36 @@ in a tree node.
 
 ```log
 .
-├── examples
-│   ├── ex1
-│   └── ex2
-├── src
-|   ├── file1.py
-|   ├── file2.cpp
-|   ├── ...
-│   └── data
-├── app
-├── docs
-├── main
-└── test
-```
-
-<!-- Change this to your License. Make sure you have added the file on GitHub -->
+├── .github                   <- Github Actions workflows
+│
+├── docs                      <- Documents
+│   ├── .icons/logos             <- Icon
+│   ├── datasets                 <- Raw datasets
+│       │── Web_of_Science_Query May 07 2024_1-5000.csv
+│       │── Web_of_Science_Search_1-1000 results.csv
+│       │── Web_of_Science_Search_1001-2000 results.csv
+│       │── Web_of_Science_Search_2001-3000 results.csv
+│       │── Web_of_Science_Search_3001-4000 results.csv
+│       │── Web_of_Science_Search_4001-5000 results.csv
+│   ├── Plots                 <- Plots
+│       │──
+│       │──
+│       │──
+│       │──
+│       │──
+│       │──
+│       │──
+│       │──
+│       │──
+│       │──
+│       │──
+│       │──
+│       │── 
+├── notebooks                 <- Project data
+│       ├── ReCoDE_Analysis_of_environmental_literature_with_BERTopic_and_RoBERTa.ipynb          <- Saved .ipynb file from colab
+│       ├── ReCoDE-BERTopic&RoBERTa_Run on HPC at Imperial.ipynb                                 <- Saved .ipynb file suitable for running on High-Performance Computer 
+├── LICENSE.md
+└── README.md
 
 \
 
