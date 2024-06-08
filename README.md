@@ -67,33 +67,45 @@ It would help a lot if you went through the following Graduate School courses be
 
 Windows
 
-
-<!-- Instructions on how the student should start going through the exemplar.
-
-Structure this section as you see fit but try to be clear, concise and accurate
-when writing your instructions.
-
-For example:
-Start by watching the introduction video,
-then study Jupyter notebooks 1-3 in the `intro` folder
-and attempt to complete exercise 1a and 1b.
-
-Once done, start going through through the PDF in the `main` folder.
-By the end of it you should be able to solve exercises 2 to 4.
-
-A final exercise can be found in the `final` folder.
-
-Solutions to the above can be found in `solutions`.
--->
-
 ## Getting Started
 
-
-## Colab Sample code
+### Colab
 
 Please visit this Colab page to access the detailed content of this tutorial: https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn?usp=sharing
 
 <a href="https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=GWrz9R6rhhbc"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>
+
+### A Step-by-Step Case Study using BERTopic to Analyze One web of Science Dataset
+
+In this step-by-step case study, we will focus on the application of BERTopic, to analyze a sample dataset sourced from Web of Science. Through this tutorial, we aim to guide you through the process:
+
+ * Installation and setup of BERTopic
+ * Collecting the raw data and preprocessing the dataset
+ * Implementing BERTopic for topic modeling
+ * Visualizing the inferred topics and interpreting the results
+ * Fine-tuning topic representations
+ * Additional readings about the wider application of BERTopic
+
+By following along, you will gain practical insights into leveraging BERTopic for insightful analysis of scholarly literature from Web of Science.
+
+
+### A Step-by-Step Case Study using RoBERTa
+
+Similart to what we have done above, we need to follow the following steps when applying a RoBERTa model.
+
+ * RoBERTa Initialization: Initializes RoBERTa tokenizer and model.
+ * Data Preparation: Loads and preprocesses the dataset.
+ * Batch Tokenization: Tokenizes abstracts in batches.
+ * Embedding Generation: Generates embeddings using RoBERTa, and save it.
+ * Topic Modeling: Applies BERTopic with RoBERTa embeddings.
+ * Visualization.
+
+This section focuses on integrating RoBERTa into the topic modeling pipeline, enhancing its analytical capabilities.
+
+
+
+
+
 
 <!-- An overview of the files and folder in the exemplar.
 Not all files and directories need to be listed, just the important
