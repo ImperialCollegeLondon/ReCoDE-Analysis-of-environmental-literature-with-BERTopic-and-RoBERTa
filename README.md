@@ -94,12 +94,13 @@ Some sample visualisation results can be:
 
 Similart to what we have done above, we need to follow the following steps when applying a RoBERTa model.
 
- * RoBERTa Initialization: Initializes RoBERTa tokenizer and model.
- * Data Preparation: Loads and preprocesses the dataset.
- * Batch Tokenization: Tokenizes abstracts in batches.
- * Embedding Generation: Generates embeddings using RoBERTa, and save it.
- * Topic Modeling: Applies BERTopic with RoBERTa embeddings.
- * Visualization.
+ * RoBERTa Initialization: Initializes RoBERTa tokenizer and model
+ * Data Preparation: Loads and preprocesses the dataset
+ * Batch Tokenization: Tokenizes abstracts in batches
+ * Embedding Generation: Generates embeddings using RoBERTa, and save it
+ * Topic Modeling: Applies BERTopic with RoBERTa embeddings
+ * Improve and fine-tune
+ * Visualization
 
 This section focuses on integrating RoBERTa into the topic modeling pipeline, enhancing its analytical capabilities.
 
