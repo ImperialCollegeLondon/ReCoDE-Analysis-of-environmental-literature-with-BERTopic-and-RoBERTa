@@ -104,6 +104,12 @@ Similart to what we have done above, we need to follow the following steps when 
 
 This section focuses on integrating RoBERTa into the topic modeling pipeline, enhancing its analytical capabilities.
 
+Some sample visualisation results can be:
+![Example Image](./docs/plots/inter-topic_roberta2.png)
+![Example Image](./docs/plots/top_topics_roberta_2.png)
+![Example Image](./docs/plots/hier_cluster_roberta_2.png)
+![Example Image](./docs/plots/sim_max_roberta_2.png)
+
 ## Frequently Asked Questions (All answers can be found on the Colab page)
 1. Specify a preferred hardware accelerator on Colab
 2. Besides Web of Science, where else can I find datasets, and how can I import literature datasets in bulk across platforms?
