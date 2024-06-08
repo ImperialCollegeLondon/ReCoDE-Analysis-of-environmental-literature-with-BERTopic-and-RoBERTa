@@ -98,8 +98,24 @@ Similart to what we have done above, we need to follow the following steps when 
 
 This section focuses on integrating RoBERTa into the topic modeling pipeline, enhancing its analytical capabilities.
 
+## Frequently Asked Questions (All answers can be found on the Colab page)
+1. Specify a preferred hardware accelerator on Colab
+2. Besides Web of Science, where else can I find datasets, and how can I import literature datasets in bulk across platforms?
+3. Can I publish the textual dataset I pre-processed, and where？
+4. Why do we need to explore literature and compared to manual exploration, what are the advantages of applying models like BERT?
+5. Factors helping you decide whether to apply RoBERTa (if you have used a general BERToic model):
+6. Why is preprocessing necessary when using RoBERTa but not always required when using BERTopic？
+7. Why is it necessary to pretrain a RoBERTa model?
+8. What happens next after pretraining?
 
+## Further Reading
 
+ * The BERTopic developer's github page: https://github.com/MaartenGr/BERTopic
+ * The BERTopic developer's personal blog page: https://www.maartengrootendorst.com/
+ * Tutorial page - Leveraging BERT and c-TF-IDF to create easily interpretable topics: maartengr.github.io/BERTopic/
+ * Natural Language Processing: A Textbook with Python Implementation (by Raymond S. T. Lee): https://www.amazon.co.uk/Natural-Language-Processing-Textbook-Implementation-ebook/dp/B0CBR29GV2
+ * Speech and Language Processing (3rd ed. draft) (by Dan Jurafsky and James H. Martin): https://web.stanford.edu/~jurafsky/slp3/
+ * Multi-lingual and multi-modal topic modelling with pre-trained embeddings: https://aclanthology.org/2022.coling-1.355.pdf
 
 
 
@@ -134,6 +150,8 @@ in a tree node.
 ```
 
 <!-- Change this to your License. Make sure you have added the file on GitHub -->
+
+\
 
 ## License
 
