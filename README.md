@@ -1,8 +1,4 @@
-<!-- Your Project title, make it sound catchy! -->
-
 # ReCoDE - Analysis of environmental literature with BERTopic and RoBERTa
-
-<!-- Provide a short description to your project -->
 
 ## Explosive literature in Environmental and Sustainability Studies
 
@@ -11,9 +7,6 @@ The field of **environmental and sustainability** studies has witnessed an explo
 This rapidly expanding body of literature is characterized by its **interdisciplinary nature**, encompassing a wide range of disciplines such as ecology, climate science, energy, economics, policy, sociology, and more. With a global focus and contributions from countries around the world, the literature base reflects **diverse cultural, socio-economic, and geographical contexts**, often in multiple languages. **Novel research areas and emerging topics**, such as circular economy, sustainable urban planning, environmental justice, biodiversity conservation, renewable energy technologies, and ecosystem services, continue to arise as environmental challenges evolve and our understanding deepens. The **development of environmental policies**, regulations, and international agreements, as well as increased public interest and awareness, have further fueled research and the demand for literature aimed at informing and engaging various stakeholders. **Technological advancements** in areas like remote sensing, environmental monitoring, and computational modelling have enabled new avenues of research and data-driven studies, contributing to the proliferation of literature. **The rise of open access publishing and digital platforms** has facilitated the dissemination and accessibility of this constantly evolving and interdisciplinary body of knowledge.
 
 So, in summary, the explosive growth of the literature across multiple disciplines, geographic regions, languages, and emerging topics poses significant challenges in terms of effectively organizing, synthesizing, and extracting insights from this vast and rapidly expanding body of knowledge. This is where **Natural Language Processing (NLP)** techniques like **topic modelling** with BERTopic and advanced language models like RoBERTa can play a crucial role. Their ability to process large volumes of text data, identify semantic topics and patterns, cluster related documents, and handle multiple languages can help researchers, policymakers, and stakeholders navigate this extensive literature more effectively.
-
-
-Also, as a STEMM PhD student at Imperial, who is going to step into a new field like Sustainability, it is helpful to learn how to take advantage of the NLP tools to accelerate your literature exploration and review process, and achieve a more smooth interdisciplinary research.
 
 **Furthermore, as a STEMM PhD student at Imperial stepping into a new field such as Sustainability, taking advantage of the NLP tools can significantly enhance the efficiency of literature exploration and review. This skill facilitates a seamless transition into interdisciplinary research, empowering you to navigate diverse datasets and extract valuable insights with greater ease and precision.**
 
@@ -59,44 +52,56 @@ It would help a lot if you went through the following Graduate School courses be
 * [Plotting in Python with Matplotlib](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/plotting-in-python-with-matplotlib/)
 * [Binary Classification of Patent Text Using Natural Language Processing (another ReCoDE project)](https://github.com/ImperialCollegeLondon/ReCoDE-AIForPatents)
 
-### Academic
+## Academic
 
 * Access to Google Colaboratory
 * Basic Math (matrices, averages)
 * Programming skills (python, pandas, numpy, tensorflow)
 * Machine learning theory (at level of intro to machine learning course)
 
-### System
+## System
 
 Windows
 
-
-<!-- Instructions on how the student should start going through the exemplar.
-
-Structure this section as you see fit but try to be clear, concise and accurate
-when writing your instructions.
-
-For example:
-Start by watching the introduction video,
-then study Jupyter notebooks 1-3 in the `intro` folder
-and attempt to complete exercise 1a and 1b.
-
-Once done, start going through through the PDF in the `main` folder.
-By the end of it you should be able to solve exercises 2 to 4.
-
-A final exercise can be found in the `final` folder.
-
-Solutions to the above can be found in `solutions`.
--->
-
 ## Getting Started
 
-
-## Colab Sample code
+### Colab
 
 Please visit this Colab page to access the detailed content of this tutorial: https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn?usp=sharing
 
 <a href="https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=GWrz9R6rhhbc"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/> </a>
+
+### A Step-by-Step Case Study using BERTopic to Analyze One web of Science Dataset
+
+In this step-by-step case study, we will focus on the application of BERTopic, to analyze a sample dataset sourced from Web of Science. Through this tutorial, we aim to guide you through the process:
+
+ * Installation and setup of BERTopic
+ * Collecting the raw data and preprocessing the dataset
+ * Implementing BERTopic for topic modeling
+ * Visualizing the inferred topics and interpreting the results
+ * Fine-tuning topic representations
+ * Additional readings about the wider application of BERTopic
+
+By following along, you will gain practical insights into leveraging BERTopic for insightful analysis of scholarly literature from Web of Science.
+
+
+### A Step-by-Step Case Study using RoBERTa
+
+Similart to what we have done above, we need to follow the following steps when applying a RoBERTa model.
+
+ * RoBERTa Initialization: Initializes RoBERTa tokenizer and model.
+ * Data Preparation: Loads and preprocesses the dataset.
+ * Batch Tokenization: Tokenizes abstracts in batches.
+ * Embedding Generation: Generates embeddings using RoBERTa, and save it.
+ * Topic Modeling: Applies BERTopic with RoBERTa embeddings.
+ * Visualization.
+
+This section focuses on integrating RoBERTa into the topic modeling pipeline, enhancing its analytical capabilities.
+
+
+
+
+
 
 <!-- An overview of the files and folder in the exemplar.
 Not all files and directories need to be listed, just the important
