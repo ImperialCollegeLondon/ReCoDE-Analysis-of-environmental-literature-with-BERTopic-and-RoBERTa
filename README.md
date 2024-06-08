@@ -135,34 +135,33 @@ in a tree node.
 
 ```log
 .
-├── .github                   <- Github Actions workflows
+├── .github                   <- github Actions workflows
 │
-├── docs                      <- Documents
-│   ├── .icons/logos             <- Icon
-│   ├── datasets                 <- Raw datasets
+├── docs                      <- documents
+│   ├── .icons/logos             <- icon
+│   ├── datasets                 <- raw datasets
 │       │── Web_of_Science_Query May 07 2024_1-5000.csv
 │       │── Web_of_Science_Search_1-1000 results.csv
 │       │── Web_of_Science_Search_1001-2000 results.csv
 │       │── Web_of_Science_Search_2001-3000 results.csv
 │       │── Web_of_Science_Search_3001-4000 results.csv
 │       │── Web_of_Science_Search_4001-5000 results.csv
-│   ├── Plots                 <- Plots
-│       │──
-│       │──
-│       │──
-│       │──
-│       │──
-│       │──
-│       │──
-│       │──
-│       │──
-│       │──
-│       │──
-│       │──
-│       │── 
-├── notebooks                 <- Project data
+│   ├── Plots                 <- plots
+│       │── hier_cluster_bert_1.png
+│       │── hier_cluster_roberta_1.png
+│       │── hier_cluster_roberta_2.png
+│       │── inter-topic_bert1.png
+│       │── inter-topic_roberta1.png
+│       │── inter-topic_roberta2.png
+│       │── sim_max_bert_1.png
+│       │── sim_max_roberta_2.png
+│       │── top_topics_bert_1.png
+│       │── top_topics_roberta_2.png
+├── notebooks                 <- project data
 │       ├── ReCoDE_Analysis_of_environmental_literature_with_BERTopic_and_RoBERTa.ipynb          <- Saved .ipynb file from colab
-│       ├── ReCoDE-BERTopic&RoBERTa_Run on HPC at Imperial.ipynb                                 <- Saved .ipynb file suitable for running on High-Performance Computer 
+│       ├── ReCoDE-BERTopic&RoBERTa_Run on HPC at Imperial.ipynb                                 <- Saved .ipynb file suitable for running on High-Performance Computer
+├── mkdocs.yml                
+├── requirements.txt          <- file for installing python dependencies
 ├── LICENSE.md
 └── README.md
 
