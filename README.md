@@ -177,8 +177,11 @@ in a tree node.
 ├── LICENSE.md
 └── README.md
 
-/
+```
+
+<!-- Change this to your License. Make sure you have added the file on GitHub -->
 
 ## License
 
 This project is licensed under the [BSD-3-Clause license](LICENSE.md)
+
