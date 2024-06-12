@@ -110,7 +110,7 @@ Some sample visualisation results can be:
 ![Example Image](./docs/plots/hier_cluster_roberta_2.png)
 ![Example Image](./docs/plots/sim_max_roberta_2.png)
 
-## Frequently Asked Questions (All answers can be found on the Colab page)
+## Frequently Asked Questions and Best Practices (All details can be found on the Colab page)
 1. Specify a preferred hardware accelerator on Colab
 2. Besides Web of Science, where else can I find datasets, and how can I import literature datasets in bulk across platforms?
 3. Can I publish the textual dataset I pre-processed, and where？
