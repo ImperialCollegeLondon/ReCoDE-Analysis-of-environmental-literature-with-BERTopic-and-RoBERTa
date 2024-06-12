@@ -172,7 +172,7 @@ in a tree node.
 │       │── top_topics_bert_1.png
 │       │── top_topics_roberta_2.png
 ├── notebooks                 <- project data
-│       ├── ReCoDE_Analysis_of_environmental_literature_with_BERTopic_and_RoBERTa.ipynb          <- Saved .ipynb file from colab
+│       ├── ReCoDE_Analysis_of_environmental_literature_with_BERTopic_and_RoBERTa_colab.ipynb          <- Saved .ipynb file from colab
 │       ├── ReCoDE-BERTopic&RoBERTa_Run on HPC at Imperial.ipynb                                 <- Saved .ipynb file suitable for running on High-Performance Computer
 ├── mkdocs.yml                
 ├── requirements.txt          <- file for installing python dependencies
