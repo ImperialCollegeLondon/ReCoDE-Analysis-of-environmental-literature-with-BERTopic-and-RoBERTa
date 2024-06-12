@@ -111,7 +111,7 @@ Some sample visualisation results can be:
 ![Example Image](./docs/plots/sim_max_roberta_2.png)
 
 ## Frequently Asked Questions and Best Practices (All details can be found on the Colab page)
-https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn?usp=sharing 
+https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=SbhVeLI72Idj&line=1&uniqifier=1 
 
 1. Specify a preferred hardware accelerator on Colab
 2. Besides Web of Science, where else can I find datasets, and how can I import literature datasets in bulk across platforms?
