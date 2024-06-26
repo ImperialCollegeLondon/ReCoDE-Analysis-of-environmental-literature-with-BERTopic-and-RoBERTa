@@ -61,7 +61,9 @@ It would help a lot if you went through the following Graduate School courses be
 
 ## System
 
-Windows
+Windows, MacOS, Ubuntu
+Python 3.11 or higher
+Ideally with GPU for fast running of the code
 
 ## Getting Started
 
