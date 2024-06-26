@@ -94,7 +94,7 @@ Some sample visualisation results can be:
 
 ### A Step-by-Step Case Study using RoBERTa
 
-Similart to what we have done above, we need to follow the following steps when applying a RoBERTa model.
+Similar to what we have done above, we need to follow the following steps when applying a RoBERTa model.
 
  * RoBERTa Initialization: Initializes RoBERTa tokenizer and model
  * Data Preparation: Loads and preprocesses the dataset
