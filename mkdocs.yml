@@ -38,8 +38,8 @@ nav:
   - Key Concepts: key_concepts.md
   - Practices:
       - Data Source: data_soures.md
-      - BERTopic Walkthrough: BERTWalkthrough.md
-      - RoBERTa Walkthrough: RoBERTaWalkthrough.md
+      - BERTopic Walkthrough: BERT_Walkthrough.md
+      - RoBERTa Walkthrough: RoBERTa_Walkthrough.md
   - HPC Notebook: ReCoDE-BERTopic&RoBERTa_Run on HPC at Imperial.ipynb
   - Additional Resources:
       - Be Sensible about the Carbon Intensivity: CARBON.md
