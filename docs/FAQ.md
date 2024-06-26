@@ -1,3 +1,5 @@
+<Details>
+
 **1. Specify a preferred hardware accelerator on Colab**
 
 CPU (Central Processing Unit), GPU (Graphics Processing Unit), and TPU (Tensor Processing Unit) are different types of processors designed for different computing tasks.
@@ -44,10 +46,7 @@ There are many different sources. Here are some examples:
 
 3. **Semantic Scholar**: The ArXiv dataset is rather large (1.1TB and growing). It is an AI-powered academic search engine that helps researchers discover and access scientific literature more efficiently. It offers advanced search capabilities, personalized recommendations, and tools for analyzing research papers. To retrieve papers with specific search criteria like "Environmental Science", date range from "2004-2024", "Has PDF", and from Journals & Conference as "arXiv.org" without specific keywords, and you can use API to retrieve datasets.
 
-
-
-
-
+****
 
 **3. Can I publish the textual dataset I pre-processed, and where？**
 
@@ -59,9 +58,7 @@ Publishing your curated text dataset for future NLP model training is a great wa
 
 3. **GitHub**: GitHub is a popular platform for hosting code repositories. It can also be used to share datasets, especially if they are relatively small or if you want to include code for data processing. When creating a new repository and upload your dataset files. Remember to add a README file with details about the dataset. **Link**: [GitHub](https://github.com/)
 
-
-
-
+****
 
 **4. Why do we need to explore literature and compared to manual exploration, what are the advantages of applying models like BERT?**
 
@@ -81,10 +78,7 @@ Computational Resources: Applying RoBERTa is computationally intensive. Ensure y
 
 Specific Research Questions: If your research questions require highly refined topics or involve understanding subtleties in language that BERTopic might miss, then using RoBERTa could be beneficial.
 
-
-
-
-
+****
 
 **6. Why is preprocessing necessary when using RoBERTa but not always required when using BERTopic？**
 
@@ -92,19 +86,13 @@ BERTopic is a topic modeling technique that often combines pre-trained embedding
 
 RoBERTa, on the other hand, is a transformer-based language model that processes text at a more granular level. When using RoBERTa directly for tasks like generating embeddings, the presence of noise, such as stop words, punctuation, and irrelevant characters, can impact the quality of the embeddings. RoBERTa does not inherently ignore or downplay stop words and other noise. Therefore, preprocessing steps such as removing stop words, converting text to lowercase, and eliminating punctuation can help improve the quality of the embeddings produced by RoBERTa, leading to better downstream analysis. So, preprocessing text before using RoBERTa can significantly improve the quality of your topic modeling results by reducing the impact of irrelevant words and noise.
 
-
-
-
-
+****
 
 **7. Why is it necessary to pretrain a RoBERTa model?**
 
 Pretraining a RoBERTa model is necessary because it allows the model to learn rich, general-purpose language representations from large amounts of text data. During pretraining, RoBERTa is exposed to vast corpora of text, where it learns to understand the nuances of language, capture contextual information, and encode semantic meaning into its embeddings. This pretraining process enables RoBERTa to capture a wide range of linguistic patterns and structures, making it a powerful tool for various natural language processing tasks.
 
-
-
-
-
+****
 
 **8. What happens next after pretraining?**
 
