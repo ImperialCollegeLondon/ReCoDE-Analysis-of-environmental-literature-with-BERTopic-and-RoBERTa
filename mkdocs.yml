@@ -40,6 +40,7 @@ nav:
       - Data Source: datasets/Web_of_Science_Query May 07 2024_1-5000.csv
       - BERTopic Walkthrough: .md
       - RoBERTa Walkthrough: .md
+  - HPC Notebook: ReCoDE-BERTopic&RoBERTa_Run on HPC at Imperial.ipynb
   - Additional Resources:
       - Be Sensible about the Carbon Intensivity: CARBON.md
       - FAQ: FAQ.md
