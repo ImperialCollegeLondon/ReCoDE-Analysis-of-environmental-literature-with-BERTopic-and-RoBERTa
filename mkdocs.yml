@@ -35,7 +35,7 @@ theme:
 nav:
   - Home: index.md
   - Quick Start: README.md
-  - Key Concepts: KEYCONCEPTS.md
+  - Key Concepts: key_concepts.md
   - Practices:
       - Data Source: datasets/Web_of_Science_Query May 07 2024_1-5000.csv
       - BERTopic Walkthrough: .md
