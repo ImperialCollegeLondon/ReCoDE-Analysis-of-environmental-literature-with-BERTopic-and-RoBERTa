@@ -37,9 +37,9 @@ nav:
   - Quick Start: README.md
   - Key Concepts: key_concepts.md
   - Practices:
-      - Data Source: datasets/Web_of_Science_Query May 07 2024_1-5000.csv
-      - BERTopic Walkthrough: .md
-      - RoBERTa Walkthrough: .md
+      - Data Source: data_soures.md
+      - BERTopic Walkthrough: BERTWalkthrough.md
+      - RoBERTa Walkthrough: RoBERTaWalkthrough.md
   - HPC Notebook: ReCoDE-BERTopic&RoBERTa_Run on HPC at Imperial.ipynb
   - Additional Resources:
       - Be Sensible about the Carbon Intensivity: CARBON.md
