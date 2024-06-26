@@ -32,6 +32,19 @@ theme:
     - navigation.top
     - toc.follow
     - content.code.annotate
+nav:
+  - Home: index.md
+  - Quick Start: README.md
+  - Key Concepts: KEYCONCEPTS.md
+  - Practices:
+      - Data Source: datasets/Web_of_Science_Query May 07 2024_1-5000.csv
+      - BERTopic Walkthrough: .md
+      - RoBERTa Walkthrough: .md
+  - Additional Resources:
+      - Be Sensible about the Carbon Intensivity: CARBON.md
+      - FAQ: FAQ.md
+      - Readings: READINGS.md
+
 extra:
   homepage: https://imperialcollegelondon.github.io/ReCoDE-home/
 
