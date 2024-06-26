@@ -1,5 +1,3 @@
-<Details>
-
 **1. Specify a preferred hardware accelerator on Colab**
 
 CPU (Central Processing Unit), GPU (Graphics Processing Unit), and TPU (Tensor Processing Unit) are different types of processors designed for different computing tasks.
