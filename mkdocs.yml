@@ -34,7 +34,6 @@ theme:
     - content.code.annotate
 nav:
   - Home: index.md
-  - Quick Start: README.md
   - Key Concepts: key_concepts.md
   - Practices:
       - Data Source: data_sources.md
