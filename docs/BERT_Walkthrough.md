@@ -86,7 +86,9 @@ These embeddings are saved in various formatsâ€”a NumPy array and a pickle fileâ
 However, **why do we need to save the embeddings?** Because it allows for efficient storage and retrieval of numerical representations of textual data, facilitating reproducibility and consistency in downstream tasks. It also serves as a backup or checkpointing mechanism for data processing pipelines, enhancing the efficiency and robustness of analyses and experiments.
 
 ### Import the SentenceTransformer library to access pre-trained models for generating sentence embeddings
+```markdown
 from sentence_transformers import SentenceTransformer
+```
 
 ### Initialize a SentenceTransformer model with the 'all-MiniLM-L6-v2' variant for generating embeddings
 ```markdown
