@@ -11,9 +11,10 @@ In this step-by-step case study, we will focus on the application of BERTopic, t
 By following along, you will gain practical insights into leveraging BERTopic for insightful analysis of scholarly literature from Web of Science.
 
 ## **Data Preparation**
-### Load the dataset
+### Load the dataset & Preview the data
+```markdown
+```python
 df = pd.read_csv("Web_of_Science_Query May 07 2024_1-5000.csv", encoding='utf-8')
-### Preview the data
 print(df.head())
 
 ## **Data Analysis**
