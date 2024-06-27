@@ -139,7 +139,11 @@ def preprocess(text):
 
 # Preprocess the abstracts
 abstracts = [preprocess(abstract) for abstract in abstracts]
+```
+
 Then we repeat the analysis again:
+
+```markdown
 from transformers import RobertaTokenizer, RobertaModel
 import torch
 
@@ -169,6 +173,7 @@ def batch_embed(inputs):
 # Generate embeddings
 batched_inputs = batch_tokenize(abstracts)
 embeddings = batch_embed(batched_inputs)
+
 # Save the updated embeddings
 output_file = "embeddings_roberta_updated.csv"
 
