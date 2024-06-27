@@ -93,8 +93,8 @@ with open(output_file, 'w', newline='') as csvfile:
         writer.writerow(embedding_row
 ```
 
-```markdown
 ## **Topic Modeling**
+```markdown
 import pandas as pd
 import numpy as np
 
@@ -107,8 +107,11 @@ topic_model = BERTopic()
 
 # Fit the topic model and get topics and probabilities
 topics, probabilities = topic_model.fit_transform(abstracts, embeddings)
+```
+
 ## **Visualizing, Analyzing and Comparing Results**
 Similar to what we have produced above, we are first looking at the Intertopic Distance Map.
+```markdown
 topic_model.visualize_topics()
 topic_model.visualize_hierarchy()
 topic_model.get_topic_info()
