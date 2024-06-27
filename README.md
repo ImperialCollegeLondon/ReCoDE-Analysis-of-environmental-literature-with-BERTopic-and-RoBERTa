@@ -173,12 +173,11 @@ in a tree node.
 │       │── sim_max_roberta_2.png
 │       │── top_topics_bert_1.png
 │       │── top_topics_roberta_2.png
-│   ├── BERT_Walkthrough.ipynb
+│   ├── BERT_Walkthrough.md
 │   ├── CARBON.md
 │   ├── FAQ.md
-│   ├── ReCoDE-BERTopic&RoBERTa_Run on HPC at Imperial.ipynb
 │   ├── Readings.md
-│   ├── RoBERTa_Walkthrough.ipynb
+│   ├── RoBERTa_Walkthrough.md
 │   ├── data_sources.md
 │   ├── index.md
 │   ├── key_concepts.md
