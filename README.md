@@ -173,6 +173,15 @@ in a tree node.
 │       │── sim_max_roberta_2.png
 │       │── top_topics_bert_1.png
 │       │── top_topics_roberta_2.png
+│   ├── BERT_Walkthrough.ipynb
+│   ├── CARBON.md
+│   ├── FAQ.md
+│   ├── ReCoDE-BERTopic&RoBERTa_Run on HPC at Imperial.ipynb
+│   ├── Readings.md
+│   ├── RoBERTa_Walkthrough.ipynb
+│   ├── data_sources.md
+│   ├── index.md
+│   ├── key_concepts.md
 ├── notebooks                 <- project data
 │       ├── ReCoDE_Analysis_of_environmental_literature_with_BERTopic_and_RoBERTa_colab.ipynb          <- Saved .ipynb file from colab
 │       ├── ReCoDE-BERTopic&RoBERTa_Run on HPC at Imperial.ipynb                                 <- Saved .ipynb file suitable for running on High-Performance Computer
