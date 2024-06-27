@@ -16,6 +16,7 @@ By following along, you will gain practical insights into leveraging BERTopic fo
 ```python
 df = pd.read_csv("Web_of_Science_Query May 07 2024_1-5000.csv", encoding='utf-8')
 print(df.head())
+```markdown
 
 ## **Data Analysis**
 ### **Applying BERT and Validation**
