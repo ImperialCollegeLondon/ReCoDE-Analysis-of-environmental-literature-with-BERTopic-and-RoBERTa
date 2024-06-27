@@ -13,10 +13,9 @@ By following along, you will gain practical insights into leveraging BERTopic fo
 ## **Data Preparation**
 ### Load the dataset & Preview the data
 ```markdown
-```python
 df = pd.read_csv("Web_of_Science_Query May 07 2024_1-5000.csv", encoding='utf-8')
 print(df.head())
-```markdown
+```
 
 ## **Data Analysis**
 ### **Applying BERT and Validation**
@@ -24,38 +23,55 @@ The provided code snippet employs the BERTopic library to conduct topic
 modeling on the given dataset "Web_of_Science_Query May 07 2024_1-5000.csv". Initially, a BERTopic instance is created, enabling the implementation of BERT-based topic modeling. Subsequently, the model is trained on the dataset by fitting it with the abstracts extracted from the DataFrame 'df'. The 'Abstract' column is accessed and converted into a list of documents ('docs'), which serves as the input data for the topic modeling process.
 As a result, the code generates topics and corresponding probabilities for each document, facilitating the extraction of meaningful themes and insights from the dataset.
 
+```markdown
 from bertopic import BERTopic
 import pandas as pd
+```
 
 ### Load your DataFrame with the abstracts
+```markdown
 df = pd.read_csv("Web_of_Science_Query May 07 2024_1-5000.csv", encoding='utf-8')
+```
 
 ### Preprocess the data to handle null values
+```markdown
 df['Abstract'] = df['Abstract'].fillna('')  # Replace null values with empty strings
+```
 
 ### Create a BERTopic instance
+```markdown
 topic_model = BERTopic(verbose=True)
+```
 
 ### Fit the model on your dataset
+```markdown
 docs = df['Abstract'].tolist()
 topics, probs = topic_model.fit_transform(docs)
+```
+
 Before we start visualizing the results, a good approach to double-check whether the topics have been successfully inferred by the BERTopic model is listed below. The code is checking whether the topics_ attribute exists and is not None in the topic_model object. If the attribute exists and is not None, it prints the inferred topics; otherwise, it prints a message indicating that the topics_ attribute has not been populated yet.
 
 By doing so, we can prevent errors and ensure that we have valid topic data to work with.
 ### Check if the topics_ attribute exists and is not None
+```markdown
 if hasattr(topic_model, 'topics_') and topic_model.topics_ is not None:
     # Print the inferred topics
     print("Inferred Topics:")
     print(topic_model.topics_)
 else:
     print("The topics_ attribute has not been populated yet.")
+```
 
 ### **Number of documents**
 In many cases, especially in text analysis tasks like topic modeling, each record or row in the dataset corresponds to a single document, especially when the dataset is highly structured. For example, in this DataFrame where each row represents a different research paper, then the 'Abstract' column in each row contains the abstract of that paper - each record in the DataFrame contains unique textual content. In this case, there is a one-to-one mapping between documents and records, where each document corresponds to a single record in the DataFrame.
 
 To determine the number of documents in this demo dataset, you can use the len() function in Python, which returns the length of a list or the number of elements in an object.
+
+```markdown
 num_documents = len(docs)
 print("Number of documents:", num_documents)
+```
+
 If the dataset is a plain text file with huge chunks of text, determining the number of documents can be more challenging as there may not be a clear separation between individual documents. However, you can use various techniques to identify and count the number of documents in the text file.
 
 Try to identify a pattern or delimiter that separates individual documents in the text file. This could be a specific string, a sequence of characters, or a blank line. For example, if each document starts with a line like "Document #123", you can use that as the delimiter, and use the split() method with the defined delimiter to split the text into a list of individual documents.
@@ -68,34 +84,47 @@ Utilizing the `sentence_transformers` library, we begin by initializing a Senten
 These embeddings are saved in various formats—a NumPy array and a pickle file—for future analysis or reuse. Additionally, we convert the embeddings into a pandas DataFrame and export them to a CSV file, facilitating easy access and manipulation of the data.
 
 However, **why do we need to save the embeddings?** Because it allows for efficient storage and retrieval of numerical representations of textual data, facilitating reproducibility and consistency in downstream tasks. It also serves as a backup or checkpointing mechanism for data processing pipelines, enhancing the efficiency and robustness of analyses and experiments.
+
 ### Import the SentenceTransformer library to access pre-trained models for generating sentence embeddings
 from sentence_transformers import SentenceTransformer
 
 ### Initialize a SentenceTransformer model with the 'all-MiniLM-L6-v2' variant for generating embeddings
+```markdown
 embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+```
 
 ### Initialize a BERTopic model with the specified SentenceTransformer embedding model and enable verbose mode for logging
+```markdown
 topic_model = BERTopic(embedding_model=embedding_model, verbose=True)
+```
 
 ### Encode the list of documents into embeddings using the initialized SentenceTransformer model, showing a progress bar during the encoding process
+```markdown
 embeddings = embedding_model.encode(docs, show_progress_bar=True)
+```
 
 ### Save the embeddings to a NumPy array file (.npy)
+```markdown
 import numpy as np
 np.save('embeddings.npy', embeddings)  # Save to .npy file
+```
 
 ### Save the embeddings to a pickle file for serialization (.pkl)
 
 Serialization refers to the process of converting an object into a format that can be easily stored, transmitted, or reconstructed later. In Python, serialization is commonly used for saving objects to files or transferring them between different systems. The .pkl extension here denotes a pickle file, which is a binary file format used for serializing and deserializing objects. Pickle files can store various Python objects, such as lists, dictionaries, and even custom classes, in a compact and efficient binary format.
 
+```markdown
 import pickle
 with open('embeddings.pkl', 'wb') as file:
     pickle.dump(embeddings, file)
+```
 
 ### Convert the embeddings into a pandas DataFrame for further analysis and export it to a CSV file without indexing
+```markdown
 import pandas as pd
 embeddings_df = pd.DataFrame(embeddings)
 embeddings_df.to_csv('embeddings.csv', index=False)
+```
 
 ### **Visulizations and Interpretation**
 It is difficult to (mathematically) define **interpretability** (Molnar 2022). A (non-mathematical) definition of interpretability that I like by Miller (2017) is: Interpretability is the degree to which a human can understand the cause of a decision. Another one by Kim et al. (2016) is: Interpretability is the degree to which a human can consistently predict the model’s result.
@@ -114,6 +143,7 @@ When you call `topic_model.visualize_topics()`, it generates a visualization tha
 
 3. **Topic Distribution**: The visualization may also include information about the distribution of documents across topics. This can help you understand how prevalent each topic is in the dataset and how topics relate to one another.
 topic_model.visualize_topics()
+
 #### **Topic Word Scores**
 
 The `visualize_barchart()` method in BERTopic generates a bar chart visualization of the most prominent topics based on their prevalence in the document corpus.
@@ -132,12 +162,18 @@ topic_model.visualize_barchart(top_n_topics=15)
 ### **Hierarchical Clustering**
 
 The visualize_hierarchy method in topic_model is used to create a hierarchical visualization of topics, with the top 100 topics being displayed. This visualization helps in understanding the relationships and hierarchical structure between topics, providing insights into how topics are grouped and nested within the document corpus.
+
+```markdown
 topic_model.visualize_hierarchy(top_n_topics=100)
+```
+
 ### **Similarity Matrix**
 
 The `visualize_heatmap` method in `topic_model` generates a heatmap visualization of the topic-document matrix, highlighting the distribution of topics across documents. With `top_n_topics` set to `100`, the heatmap displays the top 100 topics and their prevalence within the document corpus. This visualization aids in understanding the relative importance and coverage of different topics, offering insights into the thematic composition of the dataset and identifying potential patterns or trends.
-topic_model.visualize_heatmap(top_n_topics=100)
 
+```markdown
+topic_model.visualize_heatmap(top_n_topics=100)
+```
 
 ## **Fine-tune Topic Representations**
 
