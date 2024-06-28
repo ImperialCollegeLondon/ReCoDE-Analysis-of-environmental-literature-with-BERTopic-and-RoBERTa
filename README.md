@@ -65,6 +65,8 @@ Windows, MacOS, Ubuntu
 Python 3.11 or higher
 Ideally with GPU for fast running of the code
 
+NB: If you have access to High Performance Computing (HPC), we have prepared a specially adapted file for Imperial HPC environments, located under the "notebook" directory. This file is optimized to leverage the computational power and resources available through HPC, enabling more efficient processing and faster execution of your tasks.
+
 ## Getting Started
 
 ### Colab
