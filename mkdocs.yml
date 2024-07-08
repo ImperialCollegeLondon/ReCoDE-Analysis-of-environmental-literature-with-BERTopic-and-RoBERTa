@@ -32,6 +32,18 @@ theme:
     - navigation.top
     - toc.follow
     - content.code.annotate
+nav:
+  - Home: index.md
+  - Key Concepts: key_concepts.md
+  - Practices:
+      - Data Source: data_sources.md
+      - BERTopic Walkthrough: BERT_Walkthrough.md
+      - RoBERTa Walkthrough: RoBERTa_Walkthrough.md
+  - Additional Resources:
+      - Environmental Considerations: CARBON.md
+      - FAQ: FAQ.md
+      - Readings: Readings.md
+
 extra:
   homepage: https://imperialcollegelondon.github.io/ReCoDE-home/
 

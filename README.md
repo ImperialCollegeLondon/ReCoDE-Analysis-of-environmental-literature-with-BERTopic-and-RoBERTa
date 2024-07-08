@@ -61,7 +61,11 @@ It would help a lot if you went through the following Graduate School courses be
 
 ## System
 
-Windows
+Windows, MacOS, Ubuntu
+Python 3.11 or higher
+Ideally with GPU for fast running of the code
+
+NB: If you have access to High Performance Computing (HPC), we have prepared a specially adapted file for Imperial HPC environments, located under the "notebook" directory. This file is optimized to leverage the computational power and resources available through HPC, enabling more efficient processing and faster execution of your tasks.
 
 ## Getting Started
 
@@ -84,22 +88,52 @@ In this step-by-step case study, we will focus on the application of BERTopic, t
 
 By following along, you will gain practical insights into leveraging BERTopic for insightful analysis of scholarly literature from Web of Science.
 
+Some sample visualisation results can be:
+![Example Image](./docs/plots/inter-topic_bert1.png)
+![Example Image](./docs/plots/top_topics_bert_1.png)
+![Example Image](./docs/plots/hier_cluster_bert_1.png)
+![Example Image](./docs/plots/sim_max_bert_1.png)
 
 ### A Step-by-Step Case Study using RoBERTa
 
-Similart to what we have done above, we need to follow the following steps when applying a RoBERTa model.
+Similar to what we have done above, we need to follow the following steps when applying a RoBERTa model.
 
- * RoBERTa Initialization: Initializes RoBERTa tokenizer and model.
- * Data Preparation: Loads and preprocesses the dataset.
- * Batch Tokenization: Tokenizes abstracts in batches.
- * Embedding Generation: Generates embeddings using RoBERTa, and save it.
- * Topic Modeling: Applies BERTopic with RoBERTa embeddings.
- * Visualization.
+ * RoBERTa Initialization: Initializes RoBERTa tokenizer and model
+ * Data Preparation: Loads and preprocesses the dataset
+ * Batch Tokenization: Tokenizes abstracts in batches
+ * Embedding Generation: Generates embeddings using RoBERTa, and save it
+ * Topic Modeling: Applies BERTopic with RoBERTa embeddings
+ * Improve and fine-tune
+ * Visualization
 
 This section focuses on integrating RoBERTa into the topic modeling pipeline, enhancing its analytical capabilities.
 
+Some sample visualisation results can be:
+![Example Image](./docs/plots/inter-topic_roberta2.png)
+![Example Image](./docs/plots/top_topics_roberta_2.png)
+![Example Image](./docs/plots/hier_cluster_roberta_2.png)
+![Example Image](./docs/plots/sim_max_roberta_2.png)
 
+## Frequently Asked Questions and Best Practices (All details can be found on the Colab page)
+https://colab.research.google.com/drive/1vJzmFTFurlK-NGDw_fhJgxSmcKSZooLn#scrollTo=SbhVeLI72Idj&line=1&uniqifier=1 
 
+1. Specify a preferred hardware accelerator on Colab
+2. Besides Web of Science, where else can I find datasets, and how can I import literature datasets in bulk across platforms?
+3. Can I publish the textual dataset I pre-processed, and where？
+4. Why do we need to explore literature and compared to manual exploration, what are the advantages of applying models like BERT?
+5. Factors helping you decide whether to apply RoBERTa (if you have used a general BERToic model):
+6. Why is preprocessing necessary when using RoBERTa but not always required when using BERTopic？
+7. Why is it necessary to pretrain a RoBERTa model?
+8. What happens next after pretraining?
+
+## Further Reading
+
+ * The BERTopic developer's github page: https://github.com/MaartenGr/BERTopic
+ * The BERTopic developer's personal blog page: https://www.maartengrootendorst.com/
+ * Tutorial page - Leveraging BERT and c-TF-IDF to create easily interpretable topics: maartengr.github.io/BERTopic/
+ * Natural Language Processing: A Textbook with Python Implementation (by Raymond S. T. Lee): https://www.amazon.co.uk/Natural-Language-Processing-Textbook-Implementation-ebook/dp/B0CBR29GV2
+ * Speech and Language Processing (3rd ed. draft) (by Dan Jurafsky and James H. Martin): https://web.stanford.edu/~jurafsky/slp3/
+ * Multi-lingual and multi-modal topic modelling with pre-trained embeddings: https://aclanthology.org/2022.coling-1.355.pdf
 
 
 
@@ -119,18 +153,44 @@ in a tree node.
 
 ```log
 .
-├── examples
-│   ├── ex1
-│   └── ex2
-├── src
-|   ├── file1.py
-|   ├── file2.cpp
-|   ├── ...
-│   └── data
-├── app
-├── docs
-├── main
-└── test
+├── .github                   <- github Actions workflows
+│
+├── docs                      <- documents
+│   ├── .icons/logos             <- icon
+│   ├── datasets                 <- raw datasets
+│       │── Web_of_Science_Query May 07 2024_1-5000.csv
+│       │── Web_of_Science_Search_1-1000 results.csv
+│       │── Web_of_Science_Search_1001-2000 results.csv
+│       │── Web_of_Science_Search_2001-3000 results.csv
+│       │── Web_of_Science_Search_3001-4000 results.csv
+│       │── Web_of_Science_Search_4001-5000 results.csv
+│   ├── plots                 <- plots
+│       │── hier_cluster_bert_1.png
+│       │── hier_cluster_roberta_1.png
+│       │── hier_cluster_roberta_2.png
+│       │── inter-topic_bert1.png
+│       │── inter-topic_roberta1.png
+│       │── inter-topic_roberta2.png
+│       │── sim_max_bert_1.png
+│       │── sim_max_roberta_2.png
+│       │── top_topics_bert_1.png
+│       │── top_topics_roberta_2.png
+│   ├── BERT_Walkthrough.md
+│   ├── CARBON.md
+│   ├── FAQ.md
+│   ├── Readings.md
+│   ├── RoBERTa_Walkthrough.md
+│   ├── data_sources.md
+│   ├── index.md
+│   ├── key_concepts.md
+├── notebooks                 <- project data
+│       ├── ReCoDE_Analysis_of_environmental_literature_with_BERTopic_and_RoBERTa_colab.ipynb          <- Saved .ipynb file from colab
+│       ├── ReCoDE-BERTopic&RoBERTa_Run on HPC at Imperial.ipynb                                 <- Saved .ipynb file suitable for running on High-Performance Computer
+├── mkdocs.yml                
+├── requirements.txt          <- file for installing python dependencies
+├── LICENSE.md
+└── README.md
+
 ```
 
 <!-- Change this to your License. Make sure you have added the file on GitHub -->
@@ -138,3 +198,4 @@ in a tree node.
 ## License
 
 This project is licensed under the [BSD-3-Clause license](LICENSE.md)
+

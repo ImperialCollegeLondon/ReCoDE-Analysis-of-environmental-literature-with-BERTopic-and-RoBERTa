@@ -3,3 +3,11 @@ mkdocs-include-markdown-plugin==3.7.1
 mkdocs-jupyter==0.24.5
 mkdocs-material==9.4.6
 python-markdown-math==0.8
+
+bertopic
+transformers
+tensorflow-text==2.15.0
+tf-models-official==2.15.0
+umap-learn
+hdbscan
+torch
