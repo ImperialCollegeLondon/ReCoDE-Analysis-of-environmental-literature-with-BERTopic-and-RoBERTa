@@ -40,7 +40,7 @@ nav:
       - BERTopic Walkthrough: BERT_Walkthrough.md
       - RoBERTa Walkthrough: RoBERTa_Walkthrough.md
   - Additional Resources:
-      - Be Sensible about the Carbon Intensivity: CARBON.md
+      - Environmental Considerations: CARBON.md
       - FAQ: FAQ.md
       - Readings: Readings.md
 
