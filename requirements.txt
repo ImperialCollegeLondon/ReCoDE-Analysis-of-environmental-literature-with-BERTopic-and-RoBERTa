@@ -6,8 +6,9 @@ python-markdown-math==0.8
 
 bertopic
 transformers
-tensorflow-text==2.15.0
-tf-models-official==2.15.0
+tensorflow
+tensorflow-text
+tf-models-official
 umap-learn
 hdbscan
 torch
