@@ -1,5 +1,5 @@
-site_name: ReCoDE Exemplar Template
-repo_url: https://github.com/ImperialCollegeLondon/ReCoDE-exemplar-template
+site_name: Environmental literature analysis with BERTopic & RoBERTa
+repo_url: https://github.com/ImperialCollegeLondon/ReCoDE-Analysis-of-environmental-literature-with-BERTopic-and-RoBERTa/
 
 ## Please change the above name and link to point to your exemplar
 ## Please do not change the theme or most other options below 
